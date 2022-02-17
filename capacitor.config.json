@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "MedicalApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
