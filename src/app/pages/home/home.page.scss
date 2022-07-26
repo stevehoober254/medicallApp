@@ -1,0 +1,77 @@
+#profile{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+#greet{
+  font-size: .8em;
+  color:gray;
+  font-weight: bold;
+}
+#menu{
+  font-size:2.3em;
+  font-weight: bold;
+}
+#name{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.det{
+  align-items: left;
+}
+.header{
+  margin-top: 30px;
+}
+.section{
+  margin-top: 30px;
+  #title{
+    font-weight: bold;
+  }
+}
+.patient-card{
+  border-radius: 20px;
+  background: var(--ion-color-medium);
+  margin-top: 20px;
+  ion-button{
+    margin: 10px;
+    text-transform: none;
+    --background:var(--ion-color-light);
+    color: var(--ion-color-primary);
+  }
+  #patient{
+    width:30px;
+    height:30px;
+    border: 2px solid var(--ion-color-tertiary);
+    border-radius: 50%;
+  }
+  p{
+    text-align: start;
+    padding:10px;
+    color: var(--ion-color-light);
+    font-weight: bold;
+  }
+  .date{
+    text-align: right;
+  }
+  ion-item{
+    --background: var(--ion-color-medium);
+  }
+}
+.active-card{
+  ion-button{
+    --background:var(--ion-color-success);
+  }
+  ion-item{
+    --background: var(--ion-color-primary);
+  }
+  background: var(--ion-color-primary);
+  #patient{
+   border: 2px solid var(--ion-color-secondary);
+  }
+  p{
+    color: var(--ion-color-dark);
+  }
+  .date{
+    color: var(--ion-color-light);
+  }
+ }
